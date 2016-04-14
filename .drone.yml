@@ -6,4 +6,4 @@ build:
 notify:
   slack:
     webhook_url: https://hooks.slack.com/services/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
-    username: drone
+    username: slackbot
