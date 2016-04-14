@@ -3,3 +3,4 @@ build:
   commands:
     - bundle install
     - bundle exec rake
+    - echo 'foo'
