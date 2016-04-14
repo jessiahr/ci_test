@@ -1,0 +1,10 @@
+build:
+  image: rails
+  commands:
+    - bundle install
+    - bundle exec rake
+notify:
+  slack:
+    webhook_url: https://hooks.slack.com/services/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
+    username: drone
+    channel: dev-ops
