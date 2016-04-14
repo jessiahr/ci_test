@@ -1,0 +1,5 @@
+build:
+  image: rails
+  commands:
+    - bundle install
+    - bundle exec rake
